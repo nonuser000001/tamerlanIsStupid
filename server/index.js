@@ -13,11 +13,7 @@ app.set('trust proxy', 1);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
-    cors({
-        origin: ['http://localhost:5173', 'https://node-js-ovqm.onrender.com'],
-        credentials:true,
-    })
-);
+    cors();
 app.use('/api',router)
 console.log(process.env.DB_URL)
 
