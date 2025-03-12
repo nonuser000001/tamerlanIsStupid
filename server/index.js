@@ -11,7 +11,7 @@ app.use(cookieParser())
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(
     cors({
-        origin: ['http://localhost:5173', 'https://node-js-ovqm.onrender.com'],
+        origin: ['http://localhost:5173', 'https://kapilka-0l7y.onrender.com'],
         credentials:true,
     })
 );
