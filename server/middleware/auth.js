@@ -36,5 +36,8 @@ const auth = async (req, res, next) => {
     }
 
 }
+console.log("Cookies received:", req.cookies);
+console.log("Authorization Header:", req.headers.authorization);
+
 
 module.exports = auth;
