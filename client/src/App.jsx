@@ -20,7 +20,7 @@ function App() {
         {isLoggedIn ? (
           <Route path="/" element={<Dashboard />} />
         ):(
-          <Route path="/" element={<AuthForm />} />
+          <Route path="/auth" element={<AuthForm />} />
         )}
         <Route path="/expenses" element={<Expenses />} />
         <Route path="/incomes" element={<Incomes />} />
