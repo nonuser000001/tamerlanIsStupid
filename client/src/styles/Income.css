@@ -1,0 +1,101 @@
+.income-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 1rem 1rem 1rem;
+ }
+ .income-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+ }
+ .income-container div {
+    margin-bottom: 1.5rem;
+ }
+ .income-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--default-color);
+ }
+ .income-container input,
+ .income-container select {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: white;
+ }
+ .income-container input::placeholder{
+    color: #9ca3af;
+ }
+ .income-container select {
+    background-color: white;
+    cursor: pointer;
+ }
+ 
+ .income-button {
+    width: auto;
+    background-color: #18181b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+ }
+ .income-button:hover {
+    background-color: #27272a;
+ }
+ .income-button:disabled {
+    background-color: #181818b5;
+    cursor: not-allowed;
+ }
+ input[type='number']::-webkit-inner-spin-button, 
+ input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+ }
+ 
+ input[type='number'] {
+    -moz-appearance: textfield;
+ }
+ 
+ .incomes-table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+ }
+ .incomes-table th,
+ .incomes-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgb(130, 130, 130);
+ }
+ .incomes-table th {
+    font-weight: 500;
+    color: #464c57;
+ }
+ .incomes-table td {
+    color: #111827;
+ }
+ .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+ }
+ .edit-button,
+ .delete-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+ }
+ .edit-button {
+    background-color: #18181b;
+    color: white;
+ }
+ .delete-button {
+    background-color: #ef4444;
+    color: white;
+ }

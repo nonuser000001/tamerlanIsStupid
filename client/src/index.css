@@ -1,0 +1,16 @@
+:root{
+  --primary-color:#a9c8a3;
+  --default-color:#000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anek Latin", sans-serif;
+  font-weight: 500;
+
+}
