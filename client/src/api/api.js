@@ -1,12 +1,12 @@
 import axios from 'axios';
 const baseURL = process.env.NODE_ENV === 'production' 
 ? '/api' 
-: 'http://localhost:3000/api';
+: 'https://tamerlanisstupid.onrender.com/api';
 
 
 export default axios.create({
 
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://tamerlanisstupid.onrender.com/api',
     headers: {
         'Content-Type': 'application/json',
     },
